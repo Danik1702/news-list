@@ -1,0 +1,83 @@
+/* App component styles */
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header conponent styles */
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    box-shadow: 0 0 1px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    color: #000;
+    border-radius: 10px 10px 0 0;
+}
+
+.header-link:hover {
+    background-color: #000;
+    color: #fff;
+    transition-duration: 0.6s;
+}
+
+/* NewsList component styles */
+
+.hidden-content-text {
+    display: none
+}
+
+.content-text {
+    text-indent: 30px;
+    font-size: 14px;
+    line-height: 2em;
+    text-align: justify;
+    transition-duration: 0.6;
+}
+
+i.read-more {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+i.read-more:hover {
+    font-weight: 900;
+}
+
+.header-banner img{
+    max-width: 100%;
+}
+
+
+/* Footer styles */
+
+.end-of-list {
+    padding: 20px;
+    height: 200px;
+    margin-top: 30px;
+    background-color: #999;
+    box-shadow: 0px 0px 10px 1px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.end-of-list h2 {
+    margin-top: 20px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-weight: 900;
+}

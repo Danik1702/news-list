@@ -1,0 +1,9 @@
+export const SIGN_IN = 'SIGN_IN';
+export const CREATE_NEWS = 'CREATE_NEWS';
+export const EDIT_NEWS = 'EDIT_NEWS';
+export const DELETE_NEWS = 'DELETE_NEWS';
+export const FETCH_NEWS = 'FETCH_NEWS';
+export const FETCH_ONE_NEWS = 'FETCH_ONE_NEWS';
+export const PASSWORD_INPUT = 'PASSWORD_INPUT';
+export const LOGIN_INPUT = 'LOGIN_INPUT';
+export const AUTORIZATION_STATUS = 'AUTORIZATION_STATUS';
